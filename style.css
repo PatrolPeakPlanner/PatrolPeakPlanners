@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-size: cover;
+    color: #fff;
+}
+
+.lifeguard-theme {
+    background: url('pool-background.jpg') no-repeat center center fixed;
+    background-color: #0077b6;
+}
+
+.skipatrol-theme {
+    background: url('ski-background.jpg') no-repeat center center fixed;
+    background-color: #003049;
+}
+
+.account-theme {
+    background: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button {
+    margin-left: 10px;
+}
+
+input,
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#checklist li {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PatrolPeakPlanner - Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="account-theme">
+
+    <header>
+        <h1>Your Account</h1>
+        <nav>
+            <button onclick="location.href='index.html'">Lifeguard</button>
+            <button onclick="location.href='ski-patrol.html'">Ski Patrol</button>
+        </nav>
+    </header>
+
+    <section id="account-section">
+        <h2>Account Details</h2>
+        <input type="text" id="accountName" placeholder="Name">
+        <input type="email" id="accountEmail" placeholder="Email">
+        <input type="text" id="accountTelephone" placeholder="Telephone">
+        <button onclick="updateAccount()">Update Account</button>
+
+        <h2>Change Password</h2>
+        <input type="password" id="oldPassword" placeholder="Old Password">
+        <input type="password" id="newPassword" placeholder="New Password">
+        <button onclick="changePassword()">Change Password</button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
